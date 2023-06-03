@@ -19,9 +19,9 @@
     "PhysicsMaxs": "1,1,1",
     "RenderMins": "-1,-1,-1",
     "RenderMaxs": "-1,-1,-1",
-    "Summary": "",
-    "Description": "",
-    "Public": false,
+    "Summary": "Retro post processing effects (Dither, bit depth reduction, pixelate)",
+    "Description": "Retro post processing effect (Dither, bit depth reduction, pixelate)\n\nCustomizable via con vars:\n\nretrofx_enabled: 0/1 (Enable/disable effect)\n\nretrofx_scale: 0 to 1 (Scale of pixelation effect)\n\nretrofx_ditherscale: 0 to 1 (Scale of dither effect)\n\nretrofx_colourdepth: 1 to 255 (Colour depth. 255 is normal)\n\nretrofx_ditherstrength: 0 to 1 (Strength of dither effect, low val recommended)",
+    "Public": true,
     "PackageSettings": [
       {
         "DisplayType": "Boolean",
@@ -76,6 +76,7 @@
         "Maximum": 1,
         "Step": 0.01
       }
-    ]
+    ],
+    "ReplaceTags": "effect post retro pixelate dither filter bitdepth postprocessing"
   }
 }
