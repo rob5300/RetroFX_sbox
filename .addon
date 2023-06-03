@@ -1,0 +1,81 @@
+{
+  "Title": "RetroFX",
+  "Type": "addon",
+  "Org": "robft",
+  "Ident": "retrofx",
+  "Tags": null,
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": [],
+  "HasCode": true,
+  "CodePath": "/code/",
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "Metadata": {
+    "CsProjName": "",
+    "PrimaryAsset": "RetroFX.RetroFXPostEffect",
+    "PhysicsMins": "-1,-1,-1",
+    "PhysicsMaxs": "1,1,1",
+    "RenderMins": "-1,-1,-1",
+    "RenderMaxs": "-1,-1,-1",
+    "Summary": "",
+    "Description": "",
+    "Public": false,
+    "PackageSettings": [
+      {
+        "DisplayType": "Boolean",
+        "Choices": [],
+        "ConVarName": "retrofx_enabled",
+        "DisplayName": "Enable RetroFX",
+        "DefaultValue": "true",
+        "Description": "Enable/disable the effect",
+        "Group": ""
+      },
+      {
+        "DisplayType": "Float",
+        "Choices": [],
+        "ConVarName": "retrofx_scale",
+        "DisplayName": "Pixelation Scale",
+        "DefaultValue": "0.25",
+        "Description": "How pixelated the image should be.",
+        "Group": "",
+        "Minimum": 0.1,
+        "Maximum": 1,
+        "Step": 0.05
+      },
+      {
+        "DisplayType": "Integer",
+        "Choices": [],
+        "ConVarName": "retrofx_colourdepth",
+        "DisplayName": "Colour Depth",
+        "DefaultValue": "16",
+        "Description": "Colour depth, from 1 -\u003E 255. Lower for less colours.",
+        "Group": "",
+        "Minimum": 1,
+        "Maximum": 255
+      },
+      {
+        "DisplayType": "Float",
+        "Choices": [],
+        "ConVarName": "retrofx_ditherscale",
+        "DisplayName": "Dither Scale",
+        "DefaultValue": "0.49660632",
+        "Description": "Scale of dither effect in relation to the current screen resolution.",
+        "Group": "",
+        "Maximum": 1
+      },
+      {
+        "DisplayType": "Float",
+        "Choices": [],
+        "ConVarName": "retrofx_ditherstrength",
+        "DisplayName": "Dither Strength",
+        "DefaultValue": "0.01",
+        "Description": "How strong the dither effect is.",
+        "Group": "",
+        "Maximum": 1,
+        "Step": 0.01
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "shaders/pixelate.shader_c"
+
+	g_colorDepth "[8.000 16.000 8.000]"
+	g_ditherScale "0.500"
+	g_ditherStrength "0.010"
+	g_pixelationScale "0.250"
+
+	DynamicParams
+	{
+		g_colorDepth "depth"
+		g_ditherScale "dither_scale"
+		g_ditherStrength "dither_strength"
+		g_pixelationScale "scale"
+	}
+}
